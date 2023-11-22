@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    li{
+        float: left;
+        list-style: none;
+        padding: 20px;
+    }
+    li:nth-child(1){
+        background-color: red;
+    }
+    li:nth-child(2){
+        background-color: orange;
+    }
+    li:nth-child(3){
+        background-color: yellow;
+    }
+    li:nth-child(4){
+        background-color: green;
+    }
+    li:nth-child(5){
+        background-color: blue;
+    }
+    li:first-child{
+        border: 2px solid;
+    }
+    li:last-child{
+        border: 2px solid;
+    }
+</style>
+</head>
+<body>
+     <!-- child방식은 부모자식관계에 있는 자손 태그에 주로 사용 -->
+     <ul> <!-- 부모 -->
+        <li>빨강</li> <!-- 자식 -->
+        <li>주황</li>
+        <li>노랑</li>
+        <li>녹색</li>
+        <li>파랑</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*자식선택자*/
+        ul > li{
+            color: red;
+        }
+        /*하위선택자*/
+        ul li{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+        <li>사과</li>
+            <li>딸기</li>
+            <li class="orange">오렌지</li>
+            <ol>
+                <li>임시</li>
+            </ol>
+        </ul>
+        <div>당근</div>
+        <p>토마토</p>
+        <span class="orange">오렌지</span>
+    </div>
+</body>
+</html>
