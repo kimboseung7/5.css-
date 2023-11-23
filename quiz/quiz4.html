@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        [disabled]{
+            color: blue;
+        }
+        [type = password]{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#">
+     <fieldset>
+        <legend>주소입력</legend>
+        <input type="text" value="인천시 남동구 구월동" disabled>
+        <input type="text" placeholder="나머지 주소입력"> /*plcaeholder로 힌트*/
+    </fieldset>
+     <fieldset>
+        <legend>로그인창</legend>
+        <input type="text" value="user1">
+        <input type="password" value="1234">
+     </fieldset>
+    <form>
+</body>
+</html>
